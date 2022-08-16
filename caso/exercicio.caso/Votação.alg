@@ -1,0 +1,90 @@
+Algoritmo "casodevoto"
+// Descrição   : Programa para saber quem tem mais votos dos candidatos
+// Autor(a)    : Sarah Cristina Ribeiro
+// Data atual  : 16/08/2022
+Var
+
+numero:inteiro
+votosL,votosB,votosC, votosN:inteiro
+
+Inicio
+// entrada e processamento
+escreval("--------Começo das eleicões!!!--------")
+escreval("Vote 1 para Lula")
+escreval("Vote 2 para Bolsonaro")
+escreval("Vote 3 para Ciro ")
+escreval("Vote 4 para Nulo")
+leia(numero)
+
+
+escolha(numero)
+        caso 1
+             escreval("Você votou no Lula")
+             votosL <- votosL+1
+        caso 2
+             escreval("Você votou no Bolsonaro")
+             votosB <- votosB+1
+        caso 3
+             escreval("Você votou no Ciro")
+             votosC <- votosC+1
+             
+        outrocaso
+             escreval("Você votou Nulo")
+             votosN <- votosN+1
+fimescolha
+
+escreval("-------CONTINUE VOTANDO-------")
+escreval("Vote 1 para Lula")
+escreval("Vote 2 para Bolsonaro")
+escreval("Vote 3 para Ciro ")
+escreval("Vote 4 para Nulo")
+leia(numero)
+
+escolha(numero)
+        caso 1
+             escreval("Você votou no Lula")
+             votosL <- votosL+1
+        caso 2
+             escreval("Você votou no Bolsonaro")
+             votosB <- votosB+1
+        caso 3
+             escreval("Você votou no Ciro")
+             votosC <- votosC+1
+
+        outrocaso
+             escreval("Você votou Nulo")
+             votosN <- votosN+1
+fimescolha
+
+escreval("-------CONTINUE VOTANDO-------")
+escreval("Vote 1 para Lula")
+escreval("Vote 2 para Bolsonaro")
+escreval("Vote 3 para Ciro ")
+escreval("Vote 4 para Nulo")
+leia(numero)
+
+escolha(numero)
+        caso 1
+             escreval("Você votou no Lula")
+             votosL <- votosL+1
+        caso 2
+             escreval("Você votou no Bolsonaro")
+             votosB <- votosB+1
+        caso 3
+             escreval("Você votou no Ciro")
+             votosC <- votosC+1
+
+        outrocaso
+             escreval("Você votou Nulo")
+             votosN <- votosN+1
+fimescolha
+
+escreval("-----------Resultados da votação----------")
+escreval("Lula recebeu",votosL,"votos")
+escreval("Bolsonaro recebeu",votosB,"votos")
+escreval("Ciro recebeu",votosC,"votos")
+escreval("Nulo recebeu",votosN,"votos")
+
+
+
+Fimalgoritmo
